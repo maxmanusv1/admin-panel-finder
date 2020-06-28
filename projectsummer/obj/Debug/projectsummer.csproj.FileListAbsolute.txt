@@ -1,0 +1,7 @@
+C:\Users\KADIR\Source\Repos\projectsummer\projectsummer\bin\Debug\projectsummer.exe.config
+C:\Users\KADIR\Source\Repos\projectsummer\projectsummer\bin\Debug\projectsummer.exe
+C:\Users\KADIR\Source\Repos\projectsummer\projectsummer\bin\Debug\projectsummer.pdb
+C:\Users\KADIR\Source\Repos\projectsummer\projectsummer\obj\Debug\projectsummer.csproj.CoreCompileInputs.cache
+C:\Users\KADIR\Source\Repos\projectsummer\projectsummer\obj\Debug\projectsummer.exe
+C:\Users\KADIR\Source\Repos\projectsummer\projectsummer\obj\Debug\projectsummer.pdb
+C:\Users\KADIR\Source\Repos\projectsummer\projectsummer\obj\Debug\projectsummer.csprojAssemblyReference.cache
