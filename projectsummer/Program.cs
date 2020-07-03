@@ -62,18 +62,6 @@ namespace projectsummer
                 Console.WriteLine("Searching succesfully done");
                 SaveLogs(list);
             }
-            internal static void SimpleSearch(string[] link,string[] extensions,int length)
-            {
-                Search_(link,extensions,length);
-            }
-            internal static void AdvancedSearchOption1(string[] link, string[] extensions,int length)
-            {
-                Search_(link, extensions,extensions.Length);
-            }
-            internal static void AdvancedSearchOption2(string[] link, string[] extensions,int length)
-            {
-                Search_(link, extensions,extensions.Length);
-            }
         }
         class GetWebsite
         {
@@ -142,15 +130,15 @@ namespace projectsummer
             {
                 case "1":
                     siteler = GetWebsite.Sorgula();
-                    Search.SimpleSearch(siteler,kes,30);
+                    Search.Search_(siteler,kes,30);
                     break;
                 case "2":
                     siteler = GetWebsite.Sorgula();
-                    Search.AdvancedSearchOption1(siteler,kes,kes.Length);
+                    Search.Search_(siteler, kes, kes.Length);
                     break;
                 case "3":
                     siteler = GetWebsite.Sorgula();
-                    Search.AdvancedSearchOption2(siteler,kes2,kes2.Length);
+                    Search.Search_(siteler, kes, kes2.Length);
                     break;
                 default:
                     Console.WriteLine("You wrote wrong number!");
