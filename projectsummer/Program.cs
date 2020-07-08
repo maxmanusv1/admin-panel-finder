@@ -138,7 +138,7 @@ namespace projectsummer
                     break;
                 case "3":
                     siteler = GetWebsite.Sorgula();
-                    Search.Search_(siteler, kes, kes2.Length);
+                    Search.Search_(siteler, kes2, kes2.Length);
                     break;
                 default:
                     Console.WriteLine("You wrote wrong number!");
